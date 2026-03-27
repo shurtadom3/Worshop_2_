@@ -59,7 +59,7 @@ El notebook [`Clasificación/clasificacion.ipynb`](Clasificación/clasificacion.
 
 ### Desarrollo
 
-El notebook [`Regresión/regresion_lightning.ipynb`](Regresión/regresion_lightning.ipynb) contiene el desarrollo completo:
+El notebook [`Regresión/regresion.ipynb`](Regresión/regresion_lightning.ipynb) contiene el desarrollo completo:
 
 1. **Análisis Preliminar del Problema** — Justificación del problema como regresión (variable objetivo continua: edad), descripción de las imágenes de entrada (dimensiones, espacio de color, distribución de edades) y protocolo de adquisición de datos.
 
@@ -82,12 +82,12 @@ El notebook [`Regresión/regresion_lightning.ipynb`](Regresión/regresion_lightn
 ## Estructura del Repositorio
 
 ```
-Workshop_2/
+Workshop_2_/
 ├── README.md                              ← Este archivo
 ├── Clasificación/
 │   └── clasificacion.ipynb                ← Notebook del problema de clasificación
 └── Regresión/
-    └── regresion_lightning.ipynb           ← Notebook del problema de regresión
+    └── regresion.ipynb           ← Notebook del problema de regresión
 ```
 
 ---
@@ -110,12 +110,12 @@ Workshop_2/
 
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/shurtadom3/Worshop_2.git
+   git clone https://github.com/shurtadom3/Worshop_2_.git
    ```
 
 2. **Problema de Clasificación:** Abrir `Clasificación/clasificacion.ipynb` en Jupyter Notebook o Google Colab y ejecutar todas las celdas secuencialmente. El dataset se descarga automáticamente desde HuggingFace.
 
-3. **Problema de Regresión:** Abrir `Regresión/regresion_lightning.ipynb` en Lightning.ai o Google Colab. Es necesario subir el archivo `UTKFace.zip` (descargable desde Kaggle) al entorno antes de ejecutar.
+3. **Problema de Regresión:** Abrir `Regresión/regresion.ipynb` en Lightning.ai o Google Colab. Es necesario subir el archivo `UTKFace.zip` (descargable desde Kaggle) al entorno antes de ejecutar.
 
 ---
 
