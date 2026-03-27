@@ -124,3 +124,4 @@ Workshop_2_/
 - Alyson Dahiana Henao
 - Gabriel Atehortua
 - Sara Hurtado
+- Samuel Arango
